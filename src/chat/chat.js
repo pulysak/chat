@@ -1,9 +1,9 @@
-MESSAGES = [
+const MESSAGES = [
 	{author: 'Pavel', text: 'hi there'},
 	{author: 'Pit', text: 'hello!'},
 ];
 
-class Chat {
+export class Chat {
 	constructor({el, data}) {
 		this.el = el;
 		this.data = data || { messages: MESSAGES };
