@@ -22,4 +22,9 @@ export class Chat {
             (message) => `<div clss="chat__message">${message.author}---${message.text}</div>`
         ).join('');
     }
+
+    addMessage(message) {
+        this.data.messages.push(message);
+        this.render();
+    }
 }
