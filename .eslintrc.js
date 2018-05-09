@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "google",
+    'extends': 'google',
     'parserOptions': {
         'ecmaVersion': 6,
         'sourceType': 'module'
@@ -7,7 +7,8 @@ module.exports = {
 
     'rules': {
         'require-jsdoc': 0,
-        "object-curly-spacing": [2, "always"],
-        'max-len': [1, 140]
+        'object-curly-spacing': [2, 'always'],
+        'max-len': [1, 140],
+        'guard-for-in': 0
     }
 };
